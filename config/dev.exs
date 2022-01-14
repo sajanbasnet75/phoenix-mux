@@ -67,5 +67,5 @@ config :phoenix, :stacktrace_depth, 20
 config :phoenix, :plug_init_mode, :runtime
 
 config :mux,
-  access_token_id: "access_token_id",
-  access_token_secret: "access_token_secret"
+  access_token_id: "f89811ea-f080-442a-b024-89ee25e75966",
+  access_token_secret: "5LIiptrIacPDFyyk2Ey4yZqo80k0ht79l22d1a08pyrkPqWTaNuSzp/Xk2Mu+RNRjyyfxmfN5o2"

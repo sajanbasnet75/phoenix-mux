@@ -37,6 +37,7 @@ Hooks.StartCamera = {
         mediaRecorder.ondataavailable = (e) => {
           var reader = new FileReader();
           reader.onloadend = function () {
+            debugger;
             hook.pushEvent("video_data", { data: reader.result });
           }
           reader.readAsDataURL(e.data);

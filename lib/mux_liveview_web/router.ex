@@ -17,7 +17,7 @@ defmodule MuxLiveviewWeb.Router do
   scope "/", MuxLiveviewWeb do
     pipe_through :browser
 
-    live "/", PageLive, :index
+    live "/page", PageLive, :index
   end
 
   # Other scopes may use custom stacks.
